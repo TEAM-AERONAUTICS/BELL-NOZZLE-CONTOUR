@@ -2,7 +2,10 @@
     THIS IS A PYTHON CODE TO GENERATE BELL NOZZLE CURVE FOR THE REQUIRED CONDITIONS.
 
     CONDITIONS ARE TO BE GIVEN EXTERNALLY, I.E.(MAKE CHANGES IN THE XL SHEET PROVIDED).
+    
+    PLEASE REFER THE READ ME FILE BEFORE RUNNING THIS CODE
 '''
+
 
 from pandas import *
 from math import *
@@ -10,7 +13,7 @@ from scipy.optimize import brentq
 from matplotlib.pyplot import *
 from xlwt import Workbook
 
-df = read_excel(r'C:\Desktop\nozzlepara.xlsx')
+df = read_excel(r'C:\Users\SIDDHANTH\Desktop\nozzlepara.xlsx')
 
 #EITHER PROVIDE MASSFLOW RATE OR THRUST
 
