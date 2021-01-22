@@ -30,7 +30,7 @@ DESIRED_MASS_FLOW_RATE =  df['VALUE'][3]
 ALTITUDE               =  df['VALUE'][4]
 GAMMA                  =  df['VALUE'][5]
 GAS_CONSTANT           =  df['VALUE'][6]
-THROAT_RADIUS          =  df[‘VALUE’][7]
+THROAT_RADIUS          =  df['VALUE'][7]
 
 
 #THE BELOW LINES ARE USED TO FIND OUT THE ISENTROPIC RELATIONS
