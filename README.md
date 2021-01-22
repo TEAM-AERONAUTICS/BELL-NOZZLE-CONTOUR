@@ -1,6 +1,7 @@
 # bell-nozzle-contour
 
-THIS PROJECT AIM IS TO GENERATE BELL NOZZLE CONTOUR IN YOUR RESPECTIVE DESIGNING SOFTWARE'S (LIKE CATIA, ANSYS, ETC).
+This project aim is to generate bell nozzle contour in your respective designing software's (like Catia, Ansys, etc).
+
 BEFORE USING THIS CODE PLEASE DOWNLOAD THE 2 EXCEL FILES
 
 1) 'NOZZLEPARA' CONSISTS OF FEW NOZZLE PARAMETERS, MAKE RESPECTIVE CHANGES IN IT TO GET YOUR DESIRED NOZZLE CONTOUR.
@@ -14,9 +15,9 @@ BEFORE USING THIS CODE PLEASE DOWNLOAD THE 2 EXCEL FILES
     --> TO STORE IN YOUR DESIRED EXCEL SHEET JUST REPLACE THE FILE NAME 'nozzlepts.xls' with your desired one near the last line of code (ex: wb.save('example.xls') ).
     
 NOTE:
-Before you run this code , you have to make sure that following python packages are installed:
-1.Pandas
-2.scipy
-3.xlwt
-4.matplotlib
+BEFORE YOU RUN THIS CODE MAKE SURE THAT THE FOLLOWING PYTHON PACKAGES ARE INSTALLED :
+1)PANDAS
+2)SCIPY
+3)MATPLOTLIB
+4)XLWT
 
