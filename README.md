@@ -15,3 +15,6 @@ BEFORE USING THIS CODE PLEASE DOWNLOAD THE 2 EXCEL FILES
     --> TO STORE IN YOUR DESIRED EXCEL SHEET JUST REPLACE THE FILE NAME 'nozzlepts.xls' with your desired one near the last line of code (ex: wb.save('example.xls') ).
     
 NOTE:
+
+machiga unava?
+
