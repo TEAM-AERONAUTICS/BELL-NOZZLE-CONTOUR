@@ -15,6 +15,9 @@ BEFORE USING THIS CODE PLEASE DOWNLOAD THE 2 EXCEL FILES
     --> TO STORE IN YOUR DESIRED EXCEL SHEET JUST REPLACE THE FILE NAME 'nozzlepts.xls' with your desired one near the last line of code (ex: wb.save('example.xls') ).
     
 NOTE:
-
-machiga unava?
+Before you run this code , you have to make sure that following python packages are installed:
+1.Pandas
+2.scipy
+3.xlwt
+4.matplotlib
 
