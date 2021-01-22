@@ -12,6 +12,8 @@ from xlwt import Workbook
 
 df = read_excel(r'C:\Users\SIDDHANTH\Desktop\nozzlepara.xlsx')
 
+#EITHER PROVIDE MASSFLOW RATE OR THRUST
+
 CHAMBER_PRESSURE       =  df['VALUE'][0]
 CHAMBER_TEMPERATURE    =  df['VALUE'][1]
 DESIRED_THRUST         =  df['VALUE'][2]
@@ -22,7 +24,7 @@ GAS_CONSTANT           =  df['VALUE'][6]
 THROAT_RADIUS          =  df[‘VALUE’][7]
 
 
-
+#THE BELOW LINES ARE USED TO FIND OUT THE ISENTROPIC RELATIONS
 if (11000  >  ALTITUDE)  and  (ALTITUDE  <  25000):
     T_0   =  -56.46
     P_0   =  1000  *  (22.65 * exp(1.73 - 0.000157 * ALTITUDE))
@@ -124,7 +126,8 @@ for k in range(1, len(P) - 1):
     X_P3  =  [x[k], xw[k]]
     Y_P3  =  [y[k], yw[k]]
     plot(X_P3, Y_P3, 'r')
-
+    
+#YOU'LL GET A GRAPH WHICH REPRESENTS THE BELL NOZZLE CONTOUR
 
 xf  = (b[len(b) - 1] + SL[len(SL) - 1] * P[len(P) - 1]) / SL[len(SL) - 1]
 yf  =  b[len(b) - 1]
@@ -151,3 +154,4 @@ wb.save('nozzlepts.xls')
 '''
     THE POINTS GENERATED WILL BE STORED IN THE EXCEL SHEET('nozzlepts.xls')
 '''
+YOU CAN USE THE COORDINATES TO GENERATE THE EXTERNAL CONTOUR IN CATIA/ANSYS FLUENT/INVENTOR/SOLIDWORKS
