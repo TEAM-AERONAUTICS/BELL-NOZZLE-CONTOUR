@@ -39,5 +39,7 @@
    4)XLWT        (LINK : https://pypi.org/project/xlwt/#files )
 
 => AFTER DOWNLOADING THE RESPECTIVE PACKAGES OPEN COMMAND PROMPT IN YOUR SYSTEM.
+
 => AFTER OPENING COMMAND PROMPT TYPE " pip install 'package name' ", DO THIS FOR ALL THE DOWNLOADED PACKAGES.
+
 => EXAMPLE : " pip install pandas " (excluding double quotes).
