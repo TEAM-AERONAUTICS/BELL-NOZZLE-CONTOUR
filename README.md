@@ -43,3 +43,4 @@
 => AFTER OPENING COMMAND PROMPT TYPE " pip install 'package name' ", DO THIS FOR ALL THE DOWNLOADED PACKAGES.
 
 => EXAMPLE : " pip install pandas " (excluding double quotes).
+
