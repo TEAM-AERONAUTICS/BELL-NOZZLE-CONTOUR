@@ -21,7 +21,7 @@
           THE CODE WILL BE STORED IN YOUR DESIRED EXCEL SHEET.
       
       --> TO STORE IN YOUR DESIRED EXCEL SHEET JUST REPLACE THE FILE NAME 'nozzlepts.xls'
-          with your desired one near the last line of code (ex: wb.save('example.xls') ).
+          WITH YOUR DESIRED ONE NEAR THE LAST LINE OF CODE (ex: wb.save('example.xls') ).
           
 ==> DEMO VALUES ARE GIVEN IN THE EXCEL SHEETS (TAKEN FROM "VDengineering") 
     AND ALSO THE PLOTS OBTAINED FROM THE VALUES ARE AVAILABLE FOR REFERENCE.
@@ -44,3 +44,4 @@
 
 => EXAMPLE : " pip install pandas " (excluding double quotes).
 
+<meta name="google-site-verification" content="KC-jkfMcZ1gkI8SeSYmTmi0MqmNktMEDxA7YtV2D_pY" />
