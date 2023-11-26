@@ -22,7 +22,7 @@ from scipy.optimize import brentq
 from matplotlib.pyplot import *
 from xlwt import Workbook
 
-df = read_excel(r'C:\Users\SIDDHANTH\Desktop\nozzlepara.xlsx')
+df = read_excel(r'C:\Users\Desktop\nozzlepara.xlsx')
 
 # EITHER PROVIDE MASSFLOW RATE OR THRUST
 
