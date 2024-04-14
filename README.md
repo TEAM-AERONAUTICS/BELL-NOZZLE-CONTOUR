@@ -1,47 +1,42 @@
 # BELL-NOZZLE-CONTOUR
 
-@ THIS PROJECT AIM IS TO GENERATE BELL NOZZLE CONTOUR IN YOUR RESPECTIVE DESIGNING SOFTWARE'S (LIKE-> CATIA, ANSYS, Etc.) @
+This project aims to generate Bell Nozzle Contours in your respective designing software (e.g., CATIA, ANSYS, etc.).
 
-===> THIS CODE ONLY WORKS ON "PYTHON" LATEST VERSIONS  <===
+## Prerequisites
 
-=> LINK TO DOWNLOAD "PYTHON" : https://www.python.org/downloads/
+- This code only works on the latest versions of Python.
+- **Python Download Link:** [Download Python](https://www.python.org/downloads/)
+- Before using this code, please download the following Excel files:
 
-==>BEFORE USING THIS CODE PLEASE DOWNLOAD THE 2 EXCEL FILES
-
-   1) 'NOZZLEPARA' CONSISTS OF FEW NOZZLE PARAMETERS, MAKE RESPECTIVE CHANGES IN IT TO GET YOUR DESIRED NOZZLE CONTOUR.
-
-      --> AFTER DOWNLOADING THE EXCEL SHEET IN YOUR SYSTEM, COPY THE FILE PATH AND 
-          REPLACE IT WITH THE PATH ALREADY PRESENT INSIDE THE CODE(INSIDE READ EXCEL FUNCTION).
-      
-      --> df = read_excel(r' ENTER YOUR FILE PATH HERE!! ')
+    1. `NOZZLEPARA`: Contains a few nozzle parameters. Make respective changes in it to get your desired nozzle contour.
     
-   2) 'NOZZLEPTS' FILE CONTAINS ALL THE COORDINATES GENERATED FROM THE CODE.
-    
-      --> BASICALLY AFTER YOU RUN THE CODE, THE COORDINATES GENERATED FROM 
-          THE CODE WILL BE STORED IN YOUR DESIRED EXCEL SHEET.
-      
-      --> TO STORE IN YOUR DESIRED EXCEL SHEET JUST REPLACE THE FILE NAME 'nozzlepts.xls'
-          WITH YOUR DESIRED ONE NEAR THE LAST LINE OF CODE (Ex: wb.save('example.xls') ).
+        - After downloading the Excel sheet in your system, copy the file path and replace it with the path already present inside the code (inside the read_excel function).
           
-==> DEMO VALUES ARE GIVEN IN THE EXCEL SHEETS (TAKEN FROM "VDEngineering") 
-    AND ALSO THE PLOTS OBTAINED FROM THE VALUES ARE AVAILABLE FOR REFERENCE.
+          ```python
+          df = read_excel(r'ENTER YOUR FILE PATH HERE!!')
+          ```
     
-*NOTE:
+    2. `NOZZLEPTS`: Contains all the coordinates generated from the code.
+    
+        - Basically, after you run the code, the coordinates generated from the code will be stored in your desired Excel sheet.
+        
+        - To store in your desired Excel sheet, just replace the file name 'nozzlepts.xls' with your desired one near the last line of code (e.g., `wb.save('example.xls')`).
 
- => BEFORE YOU RUN THE CODE MAKE SURE THAT THE FOLLOWING PYTHON PACKAGES ARE INSTALLED :
+## Demo Values and Plots
+
+Demo values are given in the Excel sheets (taken from "VDEngineering"), and also the plots obtained from the values are available for reference.
+
+## Note
+
+- Before you run the code, make sure that the following Python packages are installed:
   
-   1)PANDAS      (LINK : https://pypi.org/project/pandas/#files )
+    1. Pandas: [Pandas Download](https://pypi.org/project/pandas/#files)
+    2. Scipy: [Scipy Download](https://pypi.org/project/scipy/#files)
+    3. Matplotlib: [Matplotlib Download](https://pypi.org/project/matplotlib/#files)
+    4. Xlwt: [Xlwt Download](https://pypi.org/project/xlwt/#files)
+
+- After downloading the respective packages, open Command Prompt in your system.
+- After opening Command Prompt, type `pip install 'package name'` and do this for all the downloaded packages.
   
-   2)SCIPY       (LINK : https://pypi.org/project/scipy/#files )
- 
-   3)MATPLOTLIB  (LINK : https://pypi.org/project/matplotlib/#files )
-  
-   4)XLWT        (LINK : https://pypi.org/project/xlwt/#files )
+  Example: `pip install pandas` (excluding double quotes).
 
-=> AFTER DOWNLOADING THE RESPECTIVE PACKAGES OPEN COMMAND PROMPT IN YOUR SYSTEM.
-
-=> AFTER OPENING COMMAND PROMPT TYPE " pip install 'package name' ", DO THIS FOR ALL THE DOWNLOADED PACKAGES.
-
-=> EXAMPLE : " pip install pandas " (excluding double quotes).
-
-<meta name="google-site-verification" content="KC-jkfMcZ1gkI8SeSYmTmi0MqmNktMEDxA7YtV2D_pY" />
